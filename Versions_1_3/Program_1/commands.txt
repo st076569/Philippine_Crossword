@@ -1,0 +1,5 @@
+g++ -c solvelib.cpp -I../headers/
+g++ -c rwconfig.cpp -I../headers/
+g++ -c errlib.cpp -I../headers/
+g++ -c test.cpp -I../headers/
+g++ test.o rwconfig.o solvelib.o errlib.o -o test

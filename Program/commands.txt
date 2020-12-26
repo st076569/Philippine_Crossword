@@ -1,0 +1,6 @@
+g++ -c errlib.cpp -I../headers/
+g++ -c instrumentslib.cpp -I../headers/
+g++ -c solvelib.cpp -I../headers/
+g++ -c rwconfig.cpp -I../headers/
+g++ -c solver.cpp -I../headers/
+g++ solver.o rwconfig.o solvelib.o errlib.o instrumentslib.o -o solver
